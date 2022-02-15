@@ -7,6 +7,7 @@ public class Enemy : MonoBehaviour
     public int health = 10;
     Animator anim;
     public float death  = 1;
+    public AudioClip clip;
 
     // Start is called before the first frame update
     void Start()
@@ -31,7 +32,9 @@ public class Enemy : MonoBehaviour
             float Death = 1;
 
             anim.SetFloat ("speed", (Death));
-            
+            AudioSource.PlayClipAtPoint(clip, transform.position);
+
+
         }
 
     }

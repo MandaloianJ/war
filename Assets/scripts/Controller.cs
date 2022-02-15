@@ -7,7 +7,8 @@ public class Controller : MonoBehaviour
     Rigidbody RB;
 
     GameObject Cam;
-
+    public AudioClip clip;
+    public AudioClip audio;
 
 
     public float MoveSpeed = 10;
@@ -52,6 +53,7 @@ public class Controller : MonoBehaviour
         if (IsGrounded == true && Input.GetKeyUp(KeyCode.Space))
         {
             RB.AddForce(transform.up * JumpForce);
+            AudioSource.PlayClipAtPoint(clip, transform.position);
         }
 
         RB.MoveRotation(RB.rotation * Quaternion.Euler(new Vector3(0, MouseX * MouseSensitivity, 0)));
@@ -62,8 +64,11 @@ public class Controller : MonoBehaviour
         Quaternion CamRot = Quaternion.Euler(CamRotX, 0, 0);
         Cam.transform.localRotation = CamRot;
 
-
-
+        
+        if (IsGrounded == true && (Input.GetKeyUp(KeyCode.W) || Input.GetKeyUp(KeyCode.D) || Input.GetKeyUp(KeyCode.A) || Input.GetKeyUp(KeyCode.S)))
+        {
+            AudioSource.PlayClipAtPoint(audio, transform.position);
+        }
 
     }
 

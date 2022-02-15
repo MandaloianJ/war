@@ -1089,6 +1089,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 10
   death: 1
+  clip: {fileID: 8300000, guid: eb3bd47854f520742b9701987981ae45, type: 3}
 --- !u!65 &4742709311165210540
 BoxCollider:
   m_ObjectHideFlags: 0
