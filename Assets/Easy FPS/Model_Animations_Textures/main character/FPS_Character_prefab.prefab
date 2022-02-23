@@ -186,6 +186,7 @@ Transform:
   m_Father: {fileID: 4000011194022868}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< Updated upstream
 --- !u!1 &1000010269019752
 GameObject:
   m_ObjectHideFlags: 0
@@ -267,6 +268,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+=======
+>>>>>>> Stashed changes
 --- !u!1 &1000010281592614
 GameObject:
   m_ObjectHideFlags: 0
@@ -449,7 +452,10 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4000010967618468}
+<<<<<<< Updated upstream
   - {fileID: 4000011655687392}
+=======
+>>>>>>> Stashed changes
   - {fileID: 4000014030761870}
   m_Father: {fileID: 4000010390804166}
   m_RootOrder: 5
@@ -905,7 +911,11 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4000013023168114}
+<<<<<<< Updated upstream
   m_RootOrder: 2
+=======
+  m_RootOrder: 1
+>>>>>>> Stashed changes
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1000011412510282
 GameObject:

@@ -57,6 +57,8 @@
     <Compile Include="Assets\scripts\Shooting.cs" />
     <Compile Include="Assets\scripts\TowerShoting.cs" />
     <Compile Include="Assets\scripts\Controller.cs" />
+    <Compile Include="Assets\Easy FPS\Scripts\DestroyAfterTimeParticle.cs" />
+    <Compile Include="Assets\scripts\ControllerGame.cs" />
     <Compile Include="Assets\scripts\Enemy.cs" />
     <Compile Include="Assets\scripts\ButtonController.cs" />
     <Compile Include="Assets\Easy FPS\Scripts\MouseLookScript.cs" />

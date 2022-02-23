@@ -3183,6 +3183,7 @@ GameObject:
   - component: {fileID: 121063358540974431}
   - component: {fileID: 121063357766725159}
   - component: {fileID: 5795233583420276094}
+  - component: {fileID: 1907561706819955479}
   m_Layer: 0
   m_Name: ZombieRig
   m_TagString: Skeleton
@@ -3244,7 +3245,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 10
   death: 1
+<<<<<<< Updated upstream
   clip: {fileID: 8300000, guid: 682d11da94be903499903ad0057578b3, type: 3}
+=======
+  bloodPrefab: {fileID: 1013274939826982, guid: ffbf169ab9dcfdc45ae14010bc82a6b2, type: 3}
+>>>>>>> Stashed changes
 --- !u!65 &5795233583420276094
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3258,6 +3263,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.9787481, y: 5.7308354, z: 1}
   m_Center: {x: 0.06952112, y: 2.8182867, z: 0}
+--- !u!114 &1907561706819955479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 121063358550506357}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f2b86038bedec64eade2cbfb9e5eb7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &121063358550506359
 GameObject:
   m_ObjectHideFlags: 0
