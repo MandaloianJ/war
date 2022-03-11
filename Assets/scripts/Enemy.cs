@@ -8,12 +8,11 @@ public class Enemy : MonoBehaviour
     public int health = 10;
     Animator anim;
     public float death  = 1;
-<<<<<<< Updated upstream
+
     public AudioClip clip;
-=======
+
     public GameObject bloodPrefab;
     public float ata;
->>>>>>> Stashed changes
 
     // Start is called before the first frame update
     void Start()
@@ -37,12 +36,11 @@ public class Enemy : MonoBehaviour
             Debug.LogWarning($"Current health: {health}");
             float Death = 1;
             anim.SetFloat ("speed", (Death));
-<<<<<<< Updated upstream
+
             AudioSource.PlayClipAtPoint(clip, transform.position);
-=======
 
             
->>>>>>> Stashed changes
+
 
 
         }

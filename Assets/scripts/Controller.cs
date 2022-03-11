@@ -8,11 +8,10 @@ public class Controller : MonoBehaviour
 
     GameObject Cam;
     public AudioClip clip;
-<<<<<<< Updated upstream
-    public AudioClip audio;
-=======
+
+    public AudioClip audio1;
     public AudioClip c;
->>>>>>> Stashed changes
+
 
 
     public float MoveSpeed = 10;
@@ -69,13 +68,12 @@ public class Controller : MonoBehaviour
         Cam.transform.localRotation = CamRot;
 
         
-<<<<<<< Updated upstream
+
         if (IsGrounded == true && (Input.GetKeyUp(KeyCode.W) || Input.GetKeyUp(KeyCode.D) || Input.GetKeyUp(KeyCode.A) || Input.GetKeyUp(KeyCode.S)))
         {
-            AudioSource.PlayClipAtPoint(audio, transform.position);
+            AudioSource.PlayClipAtPoint(audio1, transform.position);
         }
-=======
->>>>>>> Stashed changes
+
 
     }
 
