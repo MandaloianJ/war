@@ -3245,11 +3245,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 10
   death: 1
-<<<<<<< Updated upstream
   clip: {fileID: 8300000, guid: 682d11da94be903499903ad0057578b3, type: 3}
-=======
   bloodPrefab: {fileID: 1013274939826982, guid: ffbf169ab9dcfdc45ae14010bc82a6b2, type: 3}
->>>>>>> Stashed changes
 --- !u!65 &5795233583420276094
 BoxCollider:
   m_ObjectHideFlags: 0
